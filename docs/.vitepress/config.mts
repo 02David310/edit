@@ -154,6 +154,11 @@ export default defineConfig({
     }
   },
   vite: {
+    server: {
+      allowedHosts: [
+        'despicable-tamie-wabbly.ngrok-free.dev'
+      ]
+    },
     css: {
       preprocessorOptions: {
         scss: {
